@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <a href="index.html"></a><link rel="icon" href="images/1.svg"></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMRE Usun Portfolio</title>
+
+    <!-- vue scriptini ekledim -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+    <!-- css dosyasını ekledim -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app" class="app-container">
+        <!-- navbar componenti ile navbarı ekledim ve içerisine data ile değişken yollayıp active classını düzenledim -->
+        <navbar :data="'contact'"></navbar>
+        <!-- contact componentini ekledim -->
+        <contact></contact>
+        <!-- footer_area componentini ekledim -->
+        <footer_area></footer_area>
+    </div>
+
+</body>
+<!-- main.js'yi ekledim -->
+<script src="js/main.js" type="module"></script>
+
+</html>

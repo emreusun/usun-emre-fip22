@@ -1,0 +1,139 @@
+
+.navbar {
+    width: 100%;
+    background-color: #d1d1d1;
+}
+
+.container-navbar {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-menu {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand {
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+}
+
+.nav-link {
+    color: #f3f0f0;
+    background-color: transparent;
+    border-color: #dee2e6 #dee2e6 #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.active {
+    color: blue;
+}
+/* - */
+.text-center {
+    text-align: center !important;
+}
+
+.padding-top-2 {
+    padding-top: 0.5rem !important;
+}
+
+.padding-bot-2 {
+    padding-bottom: 0.5rem !important;
+}
+
+.padding-bot-4 {
+    padding-bottom: 1.5rem !important;
+}
+
+.flexcontent-center {
+    justify-content: center !important;
+}
+
+.flexcontent-between {
+    justify-content: space-between !important;
+}
+
+.gap-3 {
+    gap: 1rem !important;
+}
+
+.show-menu {
+    display: block !important;
+}
+
+.navbar-hamburger {
+    display: none;
+}
+
+// mobile size starts from 610px
+@media(max-width: 610px) {
+    .youtube-video {
+        width: 100%;
+        height: 315px
+    }
+    .small-gap-3 {
+        gap: 1rem !important;
+    }
+}
+// tablet size 750px
+@media(max-width: 750px) {
+    .col-5 {
+        width: 100% !important;
+    }
+    .info-column-witdh-8 {
+        width: 100% !important;
+    }
+    .modal {
+        width: 95% !important;
+        left: 0% !important;
+    }
+    .navbar-menu {
+        width: 50%;
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    .navbar-nav {
+        flex-direction: column;
+        padding: 20px;
+        background: #ccc;
+        -webkit-box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+        box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+        border-radius: 10px;
+    }
+    .navbar-hamburger {
+        display: block;
+    }
+    .flexbox-column {
+        flex-direction: column;
+    }
+    .footer-logo {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .small-padding-3 {
+        padding: 1.2rem !important;
+    }
+    .small-between {
+        justify-content: space-between !important;
+    }
+}
