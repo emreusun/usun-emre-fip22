@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <a href="index.html"></a><link rel="icon" href="images/1.svg"></a>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMRE Usun Portfolio</title>
+    <!-- vue js cdn compiler connection -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+   
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="app" class="app-container">
+        <!-- navbar is connected with data about tag -->
+     
+        <navbar :data="'portfolio'"></navbar>
+        <!-- portfolio component connection -->
+        
+        <portfolio :portfolios="developProjects"></portfolio>
+        <!-- footer area connection on the html -->
+       
+        <footer_area></footer_area>
+    </div>
+
+</body>
+
+
+<script src="js/main.js" type="module"></script>
+<!-- sayfa yüklendiğinde all butonuna basarak portfolioları duzenlemesını sagladım. -->
+<!-- when the page loads this script will show all the portfolio pieces on the page -->
+<!-- show all portfolp pieces on load "window.onload"--> -->
+<script>
+   window.onload = function() {
+         setTimeout(()=> {
+        document.getElementById("all").click();
+      }
+      ,300);
+        
+    };
+</script>
+
+</html>

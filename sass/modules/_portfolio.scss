@@ -1,0 +1,42 @@
+
+
+.modal {
+    position: absolute;
+    width: 25%;
+    left: 40%;
+    background-color: rgb(244, 244, 244);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.modal-body {
+    max-height: 650px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.modal-body::-webkit-scrollbar {
+    display: none;
+}
+
+.shadow {
+    -webkit-box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 4px 31px 10px rgba(0, 0, 0, 0.75);
+}
+
+.modal-footer {
+    padding-top: 20px;
+}
+
+.hover-text:hover {
+    color: rgb(111, 169, 188);
+}
+
+.hover-button:hover {
+    background-color: rgb(107, 179, 203);
+}
+
