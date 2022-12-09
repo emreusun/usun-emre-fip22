@@ -25,7 +25,7 @@ export default {
         
         // filter portfolio by category
         filter(category) {
-            //eger degişken = 'all' ise tum portfolioları getirmesını ıstedım 
+            // if category is equal to all, then show all portfolios
             if (category == 'all') {
                 this.fff = this.portfolios.filter(value => value.id !== '');
             } else {

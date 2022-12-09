@@ -7,11 +7,17 @@ For better results please us Firefox browser.
 <!-- vue js cdn compiler connection -->
     <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
 
+to install the project
+git clone https://github.com/emreusun/usun-emre-fip22
+
+
 ## references
 php class build references
 https://github.com/Trevor-FanshaweC/learningNPM_F21 for pdo connection
 https://github.com/Fanshawe-JB for send php settings.
 used stackoverflow reference and change a little bit "https://stackoverflow.com/questions/43224222/window-onload-and-run-after-x-seconds"
+iframe video youtube embed reference 
+https://www.w3schools.com/html/tryit.asp?filename=tryhtml_youtubeiframe
 
 ## demo reel song reference
 NEFFEX - New Year, New Me 🚀 [Copyright Free] No.183
