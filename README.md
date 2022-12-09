@@ -9,7 +9,8 @@ For better results please us Firefox browser.
 
 to install the project
 git clone https://github.com/emreusun/usun-emre-fip22
-
+## Build With SASS
+I created css tags differenlty they are too long but they are working with sass without any css error.
 
 ## references
 php class build references
