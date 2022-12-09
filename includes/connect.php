@@ -11,6 +11,7 @@
     $db_user = 'root';
     $db_pass = 'root'; 
 
+    // live connection
     // $db_user = 'vue_php';
     // $db_pass = 'xUT1rFUjPu]w'; 
 
