@@ -7,7 +7,7 @@ export default {
     <div class="flex-box flex-column padding-5">
         <div class="flex-box flexcontent-between info-column-witdh-8 margin-center flexbox-column">
             
-            <iframe class="youtube-video"  src="https://www.youtube.com/embed/tOZJu31mgqQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="youtube-video"  src="https://www.youtube.com/embed/NboxwH7i1YU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <img src="'../../images/author.png" height="315" width="315" alt="memoji">
         </div>
         <div class="info-column-witdh-8 margin-center">
